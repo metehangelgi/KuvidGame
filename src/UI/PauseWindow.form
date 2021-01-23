@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.PauseWindow">
+  <grid id="27dc6" binding="panelMain" layout-manager="FormLayout">
+    <rowspec value="center:20dlu:noGrow"/>
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:20dlu:noGrow"/>
+    <rowspec value="center:30dlu:noGrow"/>
+    <rowspec value="top:5dlu:noGrow"/>
+    <rowspec value="center:30dlu:noGrow"/>
+    <rowspec value="top:5dlu:noGrow"/>
+    <rowspec value="center:30dlu:noGrow"/>
+    <rowspec value="top:5dlu:noGrow"/>
+    <rowspec value="center:30dlu:noGrow"/>
+    <rowspec value="top:6dlu:noGrow"/>
+    <rowspec value="center:30dlu:noGrow"/>
+    <rowspec value="top:6dlu:noGrow"/>
+    <rowspec value="center:30dlu:noGrow"/>
+    <rowspec value="center:6dlu:noGrow"/>
+    <rowspec value="center:30dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):grow"/>
+    <colspec value="fill:20dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <colspec value="fill:20dlu:noGrow"/>
+    <constraints>
+      <xy x="20" y="20" width="431" height="556"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a313e" class="javax.swing.JTextArea" binding="textAreaTitle">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font name="Text Me One" size="48"/>
+          <foreground color="-16777216"/>
+          <opaque value="false"/>
+          <text value="PAUSED"/>
+        </properties>
+      </component>
+      <component id="206db" class="javax.swing.JButton" binding="buttonResume">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-2302756"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Resume"/>
+        </properties>
+      </component>
+      <component id="c10ef" class="javax.swing.JButton" binding="buttonRestart">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-2302756"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Restart"/>
+        </properties>
+      </component>
+      <component id="44c0e" class="javax.swing.JButton" binding="buttonOptions">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-2302756"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Options"/>
+        </properties>
+      </component>
+      <component id="6e95c" class="javax.swing.JButton" binding="buttonMainMenu">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-2302756"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Main Menu"/>
+        </properties>
+      </component>
+      <component id="abb26" class="javax.swing.JButton" binding="buttonExit">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-2302756"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Exit Window"/>
+        </properties>
+      </component>
+      <component id="7ab02" class="javax.swing.JButton" binding="buttonSave">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-2302756"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Save Game"/>
+        </properties>
+      </component>
+      <component id="8e12c" class="javax.swing.JButton" binding="buttonLoad">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-2302756"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Load Game"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

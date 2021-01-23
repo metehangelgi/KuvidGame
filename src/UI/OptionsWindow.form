@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.OptionsWindow">
+  <grid id="27dc6" binding="panelMain" layout-manager="FormLayout">
+    <rowspec value="center:10dlu:noGrow"/>
+    <rowspec value="top:d:noGrow"/>
+    <rowspec value="center:10dlu:noGrow"/>
+    <rowspec value="center:d:grow"/>
+    <colspec value="fill:d:noGrow"/>
+    <colspec value="fill:10dlu:noGrow"/>
+    <colspec value="fill:d:noGrow"/>
+    <colspec value="left:20dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <constraints>
+      <xy x="36" y="20" width="781" height="890"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <maximumSize width="1920" height="1080"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="91d9e" binding="panelMenu" layout-manager="FormLayout">
+        <rowspec value="center:d:noGrow"/>
+        <rowspec value="top:10dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:grow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:10dlu:noGrow"/>
+        <rowspec value="center:10dlu:noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fdbe3" class="javax.swing.JButton" binding="buttonSound">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <text value="Sound"/>
+            </properties>
+          </component>
+          <component id="46771" class="javax.swing.JButton" binding="buttonBack">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="5c299" class="javax.swing.JButton" binding="buttonControls">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <text value="Controls"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="76320" class="javax.swing.JTextArea" binding="textAreaTitle">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <forms top="0" left="0" bottom="0" right="30" defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Options"/>
+        </properties>
+      </component>
+      <scrollpane id="24612" binding="scrollPane">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <horizontalScrollBarPolicy value="30"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="c3960" binding="panelCardLayout" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-2991061"/>
+              <doubleBuffered value="true"/>
+              <opaque value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="1522c" binding="panelSound" layout-manager="FormLayout">
+                <rowspec value="center:8dlu:noGrow"/>
+                <rowspec value="center:d:noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <colspec value="fill:max(d;4px):grow"/>
+                <colspec value="fill:d:noGrow"/>
+                <colspec value="left:20dlu:noGrow"/>
+                <colspec value="fill:d:noGrow"/>
+                <colspec value="left:5dlu:noGrow"/>
+                <colspec value="fill:max(d;4px):noGrow"/>
+                <colspec value="fill:max(d;4px):noGrow"/>
+                <colspec value="fill:max(d;4px):grow"/>
+                <constraints>
+                  <card name="CardSound"/>
+                </constraints>
+                <properties>
+                  <background color="-2991061"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="3d853" class="javax.swing.JTextArea" binding="textAreaMenuMusic">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Menu Music Volume"/>
+                    </properties>
+                  </component>
+                  <component id="f7c02" class="javax.swing.JSlider" binding="sliderMenuMusic">
+                    <constraints>
+                      <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <inverted value="false"/>
+                      <opaque value="false"/>
+                      <orientation value="0"/>
+                      <paintLabels value="false"/>
+                      <paintTicks value="false"/>
+                      <snapToTicks value="false"/>
+                      <value value="100"/>
+                      <valueIsAdjusting value="false"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <component id="ee98a" class="javax.swing.JTextArea" binding="textAreaGameMusic">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Game Music Volume"/>
+                    </properties>
+                  </component>
+                  <component id="2cc4b" class="javax.swing.JSlider" binding="sliderGameMusic">
+                    <constraints>
+                      <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <opaque value="false"/>
+                      <value value="100"/>
+                    </properties>
+                  </component>
+                  <component id="206cc" class="javax.swing.JTextArea" binding="textAreaSFX">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="SFX Volume"/>
+                    </properties>
+                  </component>
+                  <component id="9345a" class="javax.swing.JSlider" binding="sliderSFX">
+                    <constraints>
+                      <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <opaque value="false"/>
+                      <value value="100"/>
+                    </properties>
+                  </component>
+                  <component id="30a33" class="javax.swing.JLabel" binding="textAreaMenuMusicVolume">
+                    <constraints>
+                      <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1"/>
+                      <text value="100%"/>
+                    </properties>
+                  </component>
+                  <component id="462a5" class="javax.swing.JLabel" binding="textAreaGameMusicVolume">
+                    <constraints>
+                      <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1"/>
+                      <text value="100%"/>
+                    </properties>
+                  </component>
+                  <component id="f96b3" class="javax.swing.JLabel" binding="textAreaSFXVolume">
+                    <constraints>
+                      <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1"/>
+                      <text value="100%"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="b5b2" binding="panelControls" layout-manager="FormLayout">
+                <rowspec value="center:8dlu:noGrow"/>
+                <rowspec value="center:d:noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:d:noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:3dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <colspec value="fill:d:grow"/>
+                <colspec value="fill:d:noGrow"/>
+                <colspec value="left:50dlu:noGrow"/>
+                <colspec value="fill:d:noGrow"/>
+                <colspec value="fill:d:noGrow"/>
+                <colspec value="fill:d:noGrow"/>
+                <colspec value="left:50dlu:noGrow"/>
+                <colspec value="fill:max(d;4px):noGrow"/>
+                <colspec value="fill:max(d;4px):grow"/>
+                <constraints>
+                  <card name="CardControls"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="true"/>
+                  <background color="-1507502"/>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="31e4c" class="javax.swing.JTextArea" binding="textAreaMoveRight">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Move Right"/>
+                    </properties>
+                  </component>
+                  <component id="7d1d8" class="javax.swing.JTextArea" binding="textAreaMoveLeft">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Move Left"/>
+                    </properties>
+                  </component>
+                  <component id="7162a" class="javax.swing.JTextArea" binding="textAreaRotateRight">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Rotate Right"/>
+                    </properties>
+                  </component>
+                  <component id="b31c5" class="javax.swing.JTextArea" binding="textAreaRotateLeft">
+                    <constraints>
+                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Rotate Left"/>
+                    </properties>
+                  </component>
+                  <component id="4556d" class="javax.swing.JTextArea" binding="textAreaShoot">
+                    <constraints>
+                      <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Shoot"/>
+                    </properties>
+                  </component>
+                  <component id="60267" class="javax.swing.JTextArea" binding="textAreaBlend">
+                    <constraints>
+                      <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="De/Activate Blender"/>
+                    </properties>
+                  </component>
+                  <component id="1581" class="javax.swing.JTextArea" binding="textAreaAlphaAtom">
+                    <constraints>
+                      <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Alpha Atom"/>
+                    </properties>
+                  </component>
+                  <component id="297ce" class="javax.swing.JTextArea" binding="textAreaBetaAtom">
+                    <constraints>
+                      <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Beta Atom"/>
+                    </properties>
+                  </component>
+                  <component id="655d" class="javax.swing.JTextArea" binding="textAreaGammaAtom">
+                    <constraints>
+                      <grid row="21" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Gamma Atom"/>
+                    </properties>
+                  </component>
+                  <component id="63bdf" class="javax.swing.JTextArea" binding="textAreaSigmaAtom">
+                    <constraints>
+                      <grid row="23" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Sigma Atom"/>
+                    </properties>
+                  </component>
+                  <component id="d2055" class="javax.swing.JTextArea" binding="textAreaPause">
+                    <constraints>
+                      <grid row="25" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Pause"/>
+                    </properties>
+                  </component>
+                  <component id="c5790" class="javax.swing.JTextArea" binding="textAreaAlphaPowerup">
+                    <constraints>
+                      <grid row="27" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Alpha Powerup"/>
+                    </properties>
+                  </component>
+                  <component id="d628" class="javax.swing.JTextArea" binding="textAreaGammaPowerup">
+                    <constraints>
+                      <grid row="31" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Gamma Powerup"/>
+                    </properties>
+                  </component>
+                  <component id="7f30" class="javax.swing.JTextArea" binding="textAreaSigmaPowerup">
+                    <constraints>
+                      <grid row="33" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Sigma Powerup"/>
+                    </properties>
+                  </component>
+                  <component id="64c3f" class="javax.swing.JTextArea" binding="textAreaChangeAtom">
+                    <constraints>
+                      <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Change Atom"/>
+                    </properties>
+                  </component>
+                  <component id="391db" class="javax.swing.JTextArea" binding="textAreaBetaPowerup">
+                    <constraints>
+                      <grid row="29" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Beta Powerup"/>
+                    </properties>
+                  </component>
+                  <component id="ee0a0" class="javax.swing.JTextArea" binding="textAreaActivity">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Activity"/>
+                    </properties>
+                  </component>
+                  <component id="2dd8c" class="javax.swing.JTextArea" binding="textAreaPrimaryKey">
+                    <constraints>
+                      <grid row="1" column="3" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Primary Key"/>
+                    </properties>
+                  </component>
+                  <component id="ff58e" class="javax.swing.JButton" binding="pkMoveRight">
+                    <constraints>
+                      <grid row="3" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="D"/>
+                    </properties>
+                  </component>
+                  <component id="cee05" class="javax.swing.JButton" binding="pkMoveLeft">
+                    <constraints>
+                      <grid row="5" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="A"/>
+                    </properties>
+                  </component>
+                  <component id="227e7" class="javax.swing.JButton" binding="pkRotateRight">
+                    <constraints>
+                      <grid row="7" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="E"/>
+                    </properties>
+                  </component>
+                  <component id="c5414" class="javax.swing.JButton" binding="pkRotateLeft">
+                    <constraints>
+                      <grid row="9" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Q"/>
+                    </properties>
+                  </component>
+                  <component id="28e35" class="javax.swing.JButton" binding="pkChangeAtom">
+                    <constraints>
+                      <grid row="11" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="C"/>
+                    </properties>
+                  </component>
+                  <component id="2b67e" class="javax.swing.JButton" binding="pkShoot">
+                    <constraints>
+                      <grid row="13" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Space"/>
+                    </properties>
+                  </component>
+                  <component id="5de60" class="javax.swing.JButton" binding="pkBlend">
+                    <constraints>
+                      <grid row="15" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="B"/>
+                    </properties>
+                  </component>
+                  <component id="25068" class="javax.swing.JButton" binding="pkAlphaAtom">
+                    <constraints>
+                      <grid row="17" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="1"/>
+                    </properties>
+                  </component>
+                  <component id="cf2f8" class="javax.swing.JButton" binding="pkBetaAtom">
+                    <constraints>
+                      <grid row="19" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="2"/>
+                    </properties>
+                  </component>
+                  <component id="735d4" class="javax.swing.JButton" binding="pkGammaAtom">
+                    <constraints>
+                      <grid row="21" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="3"/>
+                    </properties>
+                  </component>
+                  <component id="2586b" class="javax.swing.JButton" binding="pkSigmaAtom">
+                    <constraints>
+                      <grid row="23" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="4"/>
+                    </properties>
+                  </component>
+                  <component id="f4f99" class="javax.swing.JButton" binding="pkPause">
+                    <constraints>
+                      <grid row="25" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Escape"/>
+                    </properties>
+                  </component>
+                  <component id="81d7d" class="javax.swing.JTextArea" binding="textAreaSecondaryKey">
+                    <constraints>
+                      <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Secondary Key"/>
+                    </properties>
+                  </component>
+                  <component id="31f19" class="javax.swing.JButton" binding="pkPoweupAlphaSelectorFirst">
+                    <constraints>
+                      <grid row="27" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Alt"/>
+                    </properties>
+                  </component>
+                  <component id="fa542" class="javax.swing.JButton" binding="pkPowerupAlpha">
+                    <constraints>
+                      <grid row="27" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="1"/>
+                    </properties>
+                  </component>
+                  <component id="669cb" class="javax.swing.JButton" binding="pkPoweupBetaSelectorFirst">
+                    <constraints>
+                      <grid row="29" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Alt"/>
+                    </properties>
+                  </component>
+                  <component id="4f39b" class="javax.swing.JButton" binding="pkPoweupGammaSelectorFirst">
+                    <constraints>
+                      <grid row="31" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Alt"/>
+                    </properties>
+                  </component>
+                  <component id="7246f" class="javax.swing.JButton" binding="pkPoweupSigmaSelectorFirst">
+                    <constraints>
+                      <grid row="33" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Alt"/>
+                    </properties>
+                  </component>
+                  <component id="d4f77" class="javax.swing.JButton" binding="pkPowerupBeta">
+                    <constraints>
+                      <grid row="29" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="2"/>
+                    </properties>
+                  </component>
+                  <component id="92348" class="javax.swing.JButton" binding="pkPowerupGamma">
+                    <constraints>
+                      <grid row="31" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="3"/>
+                    </properties>
+                  </component>
+                  <component id="5da76" class="javax.swing.JButton" binding="pkPowerupSigma">
+                    <constraints>
+                      <grid row="33" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="4"/>
+                    </properties>
+                  </component>
+                  <component id="176f5" class="javax.swing.JTextArea" binding="textAreaPlus2">
+                    <constraints>
+                      <grid row="29" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <component id="ba985" class="javax.swing.JTextArea" binding="textAreaPlus3">
+                    <constraints>
+                      <grid row="31" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <component id="2b973" class="javax.swing.JTextArea" binding="textAreaPlus4">
+                    <constraints>
+                      <grid row="33" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <component id="94385" class="javax.swing.JTextArea" binding="textAreaPlus1">
+                    <constraints>
+                      <grid row="27" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <enabled value="true"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <component id="11240" class="javax.swing.JButton" binding="skMoveRight">
+                    <constraints>
+                      <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Rigt Arrow"/>
+                    </properties>
+                  </component>
+                  <component id="f992e" class="javax.swing.JButton" binding="skMoveLeft">
+                    <constraints>
+                      <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Left Arrow"/>
+                    </properties>
+                  </component>
+                  <component id="a39ea" class="javax.swing.JButton" binding="skRotateRight">
+                    <constraints>
+                      <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Scroll Wheel Down"/>
+                    </properties>
+                  </component>
+                  <component id="fe9e3" class="javax.swing.JButton" binding="skRotateLeft">
+                    <constraints>
+                      <grid row="9" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Scroll Wheel Up"/>
+                    </properties>
+                  </component>
+                  <component id="a1a02" class="javax.swing.JButton" binding="skChangeAtom">
+                    <constraints>
+                      <grid row="11" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Down Arrow"/>
+                    </properties>
+                  </component>
+                  <component id="d7454" class="javax.swing.JButton" binding="skShoot">
+                    <constraints>
+                      <grid row="13" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Up Arrow"/>
+                    </properties>
+                  </component>
+                  <component id="bb464" class="javax.swing.JButton" binding="skBlend">
+                    <constraints>
+                      <grid row="15" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Numpad 0"/>
+                    </properties>
+                  </component>
+                  <component id="f01c0" class="javax.swing.JButton" binding="skAlphaAtom">
+                    <constraints>
+                      <grid row="17" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Numpad 1"/>
+                    </properties>
+                  </component>
+                  <component id="f59ee" class="javax.swing.JButton" binding="skBetaAtom">
+                    <constraints>
+                      <grid row="19" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Numpad 2"/>
+                    </properties>
+                  </component>
+                  <component id="4d485" class="javax.swing.JButton" binding="skGammaAtom">
+                    <constraints>
+                      <grid row="21" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Numpad 3"/>
+                    </properties>
+                  </component>
+                  <component id="8c4e4" class="javax.swing.JButton" binding="skSigmaAtom">
+                    <constraints>
+                      <grid row="23" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Numpad 4"/>
+                    </properties>
+                  </component>
+                  <component id="7ebaf" class="javax.swing.JButton" binding="skPause">
+                    <constraints>
+                      <grid row="25" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="P"/>
+                    </properties>
+                  </component>
+                  <component id="c8d77" class="javax.swing.JButton" binding="skAlphaPowerup">
+                    <constraints>
+                      <grid row="27" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Alpha Button in UI"/>
+                    </properties>
+                  </component>
+                  <component id="19032" class="javax.swing.JButton" binding="skBetaPowerup">
+                    <constraints>
+                      <grid row="29" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Beta Button in UI"/>
+                    </properties>
+                  </component>
+                  <component id="6be72" class="javax.swing.JButton" binding="skGammaPowerup">
+                    <constraints>
+                      <grid row="31" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Gamma Button in UI"/>
+                    </properties>
+                  </component>
+                  <component id="2e585" class="javax.swing.JButton" binding="skSigmaPowerup">
+                    <constraints>
+                      <grid row="33" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Sigma Button in UI"/>
+                    </properties>
+                  </component>
+                  <component id="78bb6" class="javax.swing.JTextArea" binding="textAreaEtaShield">
+                    <constraints>
+                      <grid row="35" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Eta Shield"/>
+                    </properties>
+                  </component>
+                  <component id="656d0" class="javax.swing.JButton" binding="pkEtaShield">
+                    <constraints>
+                      <grid row="35" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="1"/>
+                    </properties>
+                  </component>
+                  <component id="c169" class="javax.swing.JTextArea" binding="textAreaPlus5">
+                    <constraints>
+                      <grid row="35" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <enabled value="true"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <component id="152f2" class="javax.swing.JButton" binding="skEtaShield">
+                    <constraints>
+                      <grid row="35" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Eta Button in UI"/>
+                    </properties>
+                  </component>
+                  <component id="763e7" class="javax.swing.JTextArea" binding="textAreaLotaShield">
+                    <constraints>
+                      <grid row="37" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Lota Shield"/>
+                    </properties>
+                  </component>
+                  <component id="564fb" class="javax.swing.JButton" binding="pkLotaShieldSelectorFirst">
+                    <constraints>
+                      <grid row="37" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Ctrl"/>
+                    </properties>
+                  </component>
+                  <component id="80697" class="javax.swing.JButton" binding="pkLotaShield">
+                    <constraints>
+                      <grid row="37" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="2"/>
+                    </properties>
+                  </component>
+                  <component id="c78ce" class="javax.swing.JTextArea" binding="textAreaPlus6">
+                    <constraints>
+                      <grid row="37" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <enabled value="true"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <component id="f2dd0" class="javax.swing.JTextArea" binding="textAreaThetaShield">
+                    <constraints>
+                      <grid row="39" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Theta Shield"/>
+                    </properties>
+                  </component>
+                  <component id="62d78" class="javax.swing.JButton" binding="pkThetaShieldSelectorFirst">
+                    <constraints>
+                      <grid row="39" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Ctrl"/>
+                    </properties>
+                  </component>
+                  <component id="4b197" class="javax.swing.JButton" binding="pkThetaShield">
+                    <constraints>
+                      <grid row="39" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="3"/>
+                    </properties>
+                  </component>
+                  <component id="93a1e" class="javax.swing.JTextArea" binding="textAreaPlus7">
+                    <constraints>
+                      <grid row="39" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <enabled value="true"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <component id="1766b" class="javax.swing.JButton" binding="skThetaShield">
+                    <constraints>
+                      <grid row="39" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Theta Button in UI"/>
+                    </properties>
+                  </component>
+                  <component id="c749d" class="javax.swing.JTextArea" binding="textAreaZetaShield">
+                    <constraints>
+                      <grid row="41" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="Zeta Shield"/>
+                    </properties>
+                  </component>
+                  <component id="e0f5c" class="javax.swing.JButton" binding="pkZetaShieldSelectorFirst">
+                    <constraints>
+                      <grid row="41" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Ctrl"/>
+                    </properties>
+                  </component>
+                  <component id="fc9aa" class="javax.swing.JButton" binding="pkZetaShield">
+                    <constraints>
+                      <grid row="41" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="4"/>
+                    </properties>
+                  </component>
+                  <component id="504f5" class="javax.swing.JTextArea" binding="textAreaPlus8">
+                    <constraints>
+                      <grid row="41" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <enabled value="true"/>
+                      <foreground color="-1644826"/>
+                      <opaque value="false"/>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <component id="8c057" class="javax.swing.JButton" binding="skZetaShield">
+                    <constraints>
+                      <grid row="41" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Zeta Button in UI"/>
+                    </properties>
+                  </component>
+                  <component id="ea4f9" class="javax.swing.JButton" binding="skLotaShield">
+                    <constraints>
+                      <grid row="37" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Lota Button in UI"/>
+                    </properties>
+                  </component>
+                  <component id="a0e0c" class="javax.swing.JButton" binding="pkEtaShieldSelectorFirst">
+                    <constraints>
+                      <grid row="35" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <foreground color="-1644826"/>
+                      <text value="Ctrl"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
